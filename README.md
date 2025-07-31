@@ -5,7 +5,9 @@ A simple web application for tracking golf rounds and calculating handicaps, bui
 ## Project Structure
 
 - **Backend**: Spring Boot application with H2 database for storing golf rounds
-- **Frontend**: React + TypeScript application with modern UI
+  - 📖 [Backend README](backend/README.md) - Detailed backend documentation
+- **Frontend**: React + TypeScript application with modern UI  
+  - 📖 [Frontend README](frontend/README.md) - Detailed frontend documentation
 
 ## Features
 
@@ -22,7 +24,7 @@ A simple web application for tracking golf rounds and calculating handicaps, bui
 - Node.js 16 or higher
 - npm or yarn
 
-### Setup
+### Quick Setup
 
 1. **Configure Frontend Environment**:
    ```bash
@@ -30,6 +32,10 @@ A simple web application for tracking golf rounds and calculating handicaps, bui
    cp .env.example .env.local
    # Edit .env.local and set your personal 4-digit PIN
    ```
+
+For detailed setup instructions, see:
+- [Backend Setup Guide](backend/README.md#getting-started)
+- [Frontend Setup Guide](frontend/README.md#getting-started)
 
 ### Running the Application
 
