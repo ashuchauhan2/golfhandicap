@@ -9,13 +9,13 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="golfhandicap" />
+        <module name="golf-handicap-tracker" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="golfhandicap" options="-parameters" />
+      <module name="golf-handicap-tracker" options="-parameters" />
     </option>
   </component>
 </project>
